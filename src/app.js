@@ -9,7 +9,7 @@ import taskRoutes from './routes/tasks.routes.js'
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://taskapp.up.railway.app/',
     credentials: true
 }));
 app.use(morgan('dev'));
